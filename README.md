@@ -1,2 +1,2 @@
-# Curso-em-V-deo
+# Curso-em-Vídeo
  Exercícios do curso de html5 e css3
