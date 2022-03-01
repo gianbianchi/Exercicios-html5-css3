@@ -4,21 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código Fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito  em linguagem JavaScript.</p>
-    <pre>
-        <code>
-num = int(input('Digite um número: '))
-if num % 2 == 0:
-    print(f' O número {num} é par')
-else:
-    print(f'O número {num} é ímpar')
-print('fim do programa')
-        </code>
-    </pre>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="1" start="2">
+        <li>Acordar</li>
+        <li>Ligar para João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <!--Listas ordenadas tem os tipos 'A', '1', 'I'-->
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+    </ul>
+    <!--Listas não ordenadas tem os tipos 'square', 'disc', 'circle'-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Visual Basic</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a">
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>SNES</li>
+        <ul>
+            <li>Super Mario</li>
+            <li>Jogo do pateta</li>
+        </ul>
+        <li>PS1</li>
+        <ul>
+            <li>Crash bandicoot</li>
+            <li>Resident Evil 3</li>
+        </ul>
+        <li>Xbox 360</li>
+        <ul>
+            <li>Bulletstorm</li>
+            <li>Skylanders Spyro's Adventure</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para colocar conteúdo</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem para aplicação de estilos nos conteúdos da página</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade em um site.</dd>
+    </dl>
 </body>
 </html>
